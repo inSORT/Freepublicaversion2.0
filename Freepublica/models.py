@@ -8,3 +8,9 @@ class Demo_Post(models.Model):
 
     def __str__(self):
         return self.text[:50]
+
+
+class Signinbar(models.Model):
+    Username= models.TextField()
+
+
